@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.taskeren",
+    "module": "brigadier-kt",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "brigadier-kt-1.0-SNAPSHOT.jar",
+          "url": "brigadier-kt-1.0-SNAPSHOT.jar",
+          "size": 9035,
+          "sha512": "5fb97fe56cd076dd7e7852997669de43f623a36ccddaf5ed5702f40a213c506542fda3593f49a2422b26a728d4680934e6831ccbd3c4b9963886aa403a015d39",
+          "sha256": "3eb9a1afa96a705ddbb11ee54cc66cebb60f59980d32278ab7a183a38e29a2e0",
+          "sha1": "d08a52775c91e3e814bc382942138e2014941b35",
+          "md5": "4e0abbdacd50b5d03f55062931a8bd66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.18"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "brigadier-kt-1.0-SNAPSHOT.jar",
+          "url": "brigadier-kt-1.0-SNAPSHOT.jar",
+          "size": 9035,
+          "sha512": "5fb97fe56cd076dd7e7852997669de43f623a36ccddaf5ed5702f40a213c506542fda3593f49a2422b26a728d4680934e6831ccbd3c4b9963886aa403a015d39",
+          "sha256": "3eb9a1afa96a705ddbb11ee54cc66cebb60f59980d32278ab7a183a38e29a2e0",
+          "sha1": "d08a52775c91e3e814bc382942138e2014941b35",
+          "md5": "4e0abbdacd50b5d03f55062931a8bd66"
+        }
+      ]
+    }
+  ]
+}
