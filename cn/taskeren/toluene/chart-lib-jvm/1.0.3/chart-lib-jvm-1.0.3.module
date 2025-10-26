@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../chart-lib/1.0.3/chart-lib-1.0.3.module",
+    "group": "cn.taskeren.toluene",
+    "module": "chart-lib",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chart-lib-jvm-1.0.3.jar",
+          "url": "chart-lib-jvm-1.0.3.jar",
+          "size": 47655,
+          "sha512": "9458f1a09edbff2c9c3fe06c5c2c3a24d5d38559a1a3277e9335432ff1a643849421b2c6747a543d95ca88ef6b985204ac342410f663174e54d7a8bc6f424125",
+          "sha256": "c8042a1f719bbea0d4c7f42ee0b8fddb02ed8349137523cdd8bf1e3801e478a1",
+          "sha1": "7bcec991f97066082fedc3ebbea8bda1d23b551c",
+          "md5": "0462bcc496f61da012abe30ed8691ab2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2-1"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.91.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chart-lib-jvm-1.0.3.jar",
+          "url": "chart-lib-jvm-1.0.3.jar",
+          "size": 47655,
+          "sha512": "9458f1a09edbff2c9c3fe06c5c2c3a24d5d38559a1a3277e9335432ff1a643849421b2c6747a543d95ca88ef6b985204ac342410f663174e54d7a8bc6f424125",
+          "sha256": "c8042a1f719bbea0d4c7f42ee0b8fddb02ed8349137523cdd8bf1e3801e478a1",
+          "sha1": "7bcec991f97066082fedc3ebbea8bda1d23b551c",
+          "md5": "0462bcc496f61da012abe30ed8691ab2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "chart-lib-jvm-1.0.3-sources.jar",
+          "url": "chart-lib-jvm-1.0.3-sources.jar",
+          "size": 4559,
+          "sha512": "3fc15d3cfb59618d640a5a1c813d9627eef911f42f0833f2ea67dcd6820aea60f99319be1e41c687efa1f4c15036beac365e1c1f26f01ac3aedb91163907620f",
+          "sha256": "e8ffddc6d3960592e89aa2c360d1b8a43c4e2ffce5a581bda9eddadf7feea6af",
+          "sha1": "9c952324425c7ff1a59513708219638dadb7010a",
+          "md5": "b83f028a893b490ad12c8501f73b7c9a"
+        }
+      ]
+    }
+  ]
+}
