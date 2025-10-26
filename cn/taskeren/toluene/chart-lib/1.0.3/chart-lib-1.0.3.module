@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.taskeren.toluene",
+    "module": "chart-lib",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chart-lib-metadata-1.0.3.jar",
+          "url": "chart-lib-1.0.3.jar",
+          "size": 5793,
+          "sha512": "bfbefd8e86c5e0448ab620d83adaf8c37efbcff9dabbee52e6461e5134b33e5d6c6287c9ae4924af7d1934de7804b6cf58cd956f3f111783ad3ae031df6df834",
+          "sha256": "8116429902dfb0b5a99b49bc68c1cd0001ec976148fb1b14bf4946011eb1d7fa",
+          "sha1": "dfe16bb7a859da4f99106f0c5814eba5643718bd",
+          "md5": "29a3fdce1c512bcaffc2ab40c686b5d9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "chart-lib-kotlin-1.0.3-sources.jar",
+          "url": "chart-lib-1.0.3-sources.jar",
+          "size": 3671,
+          "sha512": "bf5dc08a152179e294428b364fd8142cd9e78b15f0f4f99715e79ce8544eb527e5c0da74f8a399dda875c08a034393fbfc09042ed5904249e68e1ef37a4d7523",
+          "sha256": "0e40b758044e7642e29277695af6f5435ddce108c6c30ffe8958d498b5825192",
+          "sha1": "f505ea42377aa1c08734420ea5163ec9043337e0",
+          "md5": "e295ed4779be1d8a5c0305954a7da7a6"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../chart-lib-js/1.0.3/chart-lib-js-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-js",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../chart-lib-js/1.0.3/chart-lib-js-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-js",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../chart-lib-js/1.0.3/chart-lib-js-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-js",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../chart-lib-jvm/1.0.3/chart-lib-jvm-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-jvm",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../chart-lib-jvm/1.0.3/chart-lib-jvm-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-jvm",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../chart-lib-jvm/1.0.3/chart-lib-jvm-1.0.3.module",
+        "group": "cn.taskeren.toluene",
+        "module": "chart-lib-jvm",
+        "version": "1.0.3"
+      }
+    }
+  ]
+}
