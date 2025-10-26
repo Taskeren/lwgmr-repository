@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../chart-lib/1.0.2/chart-lib-1.0.2.module",
+    "group": "cn.taskeren.toluene",
+    "module": "chart-lib",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chart-lib-js-1.0.2.klib",
+          "url": "chart-lib-js-1.0.2.klib",
+          "size": 34425,
+          "sha512": "4b88c6800265819c4d46841fe2752816cce9842854e491469a2aeb51f9db25d2356b0eeed735e5fb52c43f2a4ebbf8be848849261834b87d2fccb3e00fc701d6",
+          "sha256": "97b63954cdbdfef879e3e982239b35c9508ebbbdbc0ed01138837218b45514e2",
+          "sha1": "c1c05bfedc9cab9d7246cb82df9a72eddf2f88e3",
+          "md5": "46409680f6439cdece875900499bfecb"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2-1"
+          }
+        },
+        {
+          "group": "io.github.pdvrieze.xmlutil",
+          "module": "serialization",
+          "version": {
+            "requires": "0.91.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "chart-lib-js-1.0.2.klib",
+          "url": "chart-lib-js-1.0.2.klib",
+          "size": 34425,
+          "sha512": "4b88c6800265819c4d46841fe2752816cce9842854e491469a2aeb51f9db25d2356b0eeed735e5fb52c43f2a4ebbf8be848849261834b87d2fccb3e00fc701d6",
+          "sha256": "97b63954cdbdfef879e3e982239b35c9508ebbbdbc0ed01138837218b45514e2",
+          "sha1": "c1c05bfedc9cab9d7246cb82df9a72eddf2f88e3",
+          "md5": "46409680f6439cdece875900499bfecb"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "chart-lib-js-1.0.2-sources.jar",
+          "url": "chart-lib-js-1.0.2-sources.jar",
+          "size": 3636,
+          "sha512": "56173a76f5ce04c54de1ac837fb5559b3a85e0a1aea86cc5c70ce478e51684d692b171f7f6d320c284f8624d097a8d3f49636f85c9eb57bda5fccd1dabe2527b",
+          "sha256": "e41d48fded0d5f15f5228966a0078486f75363863968924d2faea829bcfe5079",
+          "sha1": "ed2c816814391a33df35f5a63790c75a835259ec",
+          "md5": "2506bbfeba67105300536bc6eb9dd681"
+        }
+      ]
+    }
+  ]
+}
